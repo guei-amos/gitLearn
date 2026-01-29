@@ -1,0 +1,39 @@
+@import url('color.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: var(--primary-color);
+     color: var(--white-color);
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    font-size: 20px;
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+}
+
+li a {
+    color:var(--white-color) ;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+}
