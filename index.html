@@ -12,8 +12,8 @@
             <h1>MonLogo</h1>
             <ul>
                 <li><a href="#">Accueil</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -22,11 +22,58 @@
                     <h2>Bienvenue sur mon site web</h2>
                     <p>Nous sommes à votre disposition</p>
             </section>
-            <section>
+            <section class="container">
+                <h2 class="titre" id="portfolio">Technologies</h2>
+                <div class="flex">
+                        <div class="flex-item">
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="flex-item">
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="flex-item">
+                            <h3>JAVASCRIPT</h3>
+                        </div>
+                        <div class="flex-item">
+                            <h3>BOOTSTRAP</h3>
+                        </div>
+                        <div class="flex-item">
+                            <h3>ANGULAR</h3>
+                        </div>
+                        <div class="flex-item">
+                            <h3>PHP</h3>
+                        </div>
+                        <div class="flex-item">
+                            <h3>SYMFONY</h3>
+                        </div>
+                        <div class="flex-item">
+                            <h3>REACT</h3>
+                        </div>
+                        <div class="flex-item">
+                            <h3>MONGODB</h3>
+                        </div>
+                </div>
 
             </section>
-            <section>
-
+            <section id="contacts">
+                <h2 class="contact">Contactez nous</h2>
+                <form action="">
+                    <div>
+                        <label for="nom">Votre nom:</label><br>
+                        <input type="text" name="nom" id="nom">
+                    </div>
+                    <div>
+                        <label for="email">Votre nom:</label><br>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="nom">Votre Message:</label><br>
+                        <textarea name="" id=""></textarea>
+                    </div>
+                    <div>
+                        <input type="button" value="Envoyer">
+                    </div>
+                </form>
             </section>
         </main>
         <footer>
